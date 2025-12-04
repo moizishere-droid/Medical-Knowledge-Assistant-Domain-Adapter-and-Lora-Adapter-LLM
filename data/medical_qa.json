@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What are the symptoms of hypertension?",
+    "answer": "Hypertension often has no symptoms, which is why it's called the 'silent killer.' However, when blood pressure is extremely high, symptoms may include severe headaches, fatigue, vision problems, chest pain, difficulty breathing, and irregular heartbeat. Regular blood pressure monitoring is essential for early detection."
+  },
+  {
+    "question": "How is diabetes diagnosed?",
+    "answer": "Diabetes is diagnosed through blood tests. A fasting plasma glucose test showing levels of 126 mg/dL or higher, or an HbA1c test result of 6.5% or higher, indicates diabetes. An oral glucose tolerance test may also be used. Two separate tests showing elevated levels are typically required for diagnosis."
+  },
+  {
+    "question": "What causes osteoporosis?",
+    "answer": "Osteoporosis develops when bone resorption exceeds bone formation. Risk factors include aging, hormonal changes (especially menopause), calcium and vitamin D deficiency, sedentary lifestyle, smoking, excessive alcohol consumption, and certain medications like corticosteroids. Genetics also play a role."
+  }
+]
