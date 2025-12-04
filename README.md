@@ -1,7 +1,3 @@
-Perfect. Let’s reflect your **actual training setup** in the README and make it concise, attractive, and accurate. Here’s the updated polished version:
-
----
-
 # 🏥 Medical Knowledge Assistant
 
 A **LoRA fine-tuned GPT-2 model** for medical Q&A. This project demonstrates **domain adaptation** and **instruction tuning** for generating accurate medical responses, optimized for **Google Colab free GPU**.
