@@ -1,3 +1,7 @@
+Perfect. Let’s reflect your **actual training setup** in the README and make it concise, attractive, and accurate. Here’s the updated polished version:
+
+---
+
 # 🏥 Medical Knowledge Assistant
 
 A **LoRA fine-tuned GPT-2 model** for medical Q&A. This project demonstrates **domain adaptation** and **instruction tuning** for generating accurate medical responses, optimized for **Google Colab free GPU**.
@@ -6,9 +10,9 @@ A **LoRA fine-tuned GPT-2 model** for medical Q&A. This project demonstrates **d
 
 ## 🚀 Highlights
 
-* **Domain Adaptation + Instruction Tuning**: GPT-2 trained first on raw medical text, then fine-tuned on medical Q&A.
+* **Domain Adaptation + Instruction Tuning**: GPT-2 trained first on raw medical text (**5 epochs**), then fine-tuned on medical Q&A with LoRA (**3 epochs**).
 * **LoRA Fine-Tuning**: Parameter-efficient with only **~0.25% trainable parameters**.
-* **Instruction-Following Format**: Structured prompts for clear, professional answers.
+* **Instruction-Following Format**: Structured prompts for professional, precise answers.
 * **8-bit Quantization**: Efficient inference on consumer GPUs.
 * **Colab-Friendly**: Small model and dataset, suitable for free GPU training.
 * **Reusable Dataset**: Includes `medical_corpus.json` (text) and `medical_qa.json` (Q&A).
@@ -22,11 +26,11 @@ A **LoRA fine-tuned GPT-2 model** for medical Q&A. This project demonstrates **d
 | --------------------- | --------------------------- |
 | Base Model            | GPT-2 (124M parameters)     |
 | Dataset               | Custom medical corpus + Q&A |
-| Training Samples      | 20+ medical Q&A examples    |
+| Domain Adaptation     | 5 epochs                    |
+| LoRA Fine-Tuning      | 3 epochs                    |
 | Batch Size            | 2                           |
 | Gradient Accumulation | 4                           |
 | Learning Rate         | 2e-4                        |
-| Epochs                | 1                           |
 | Max Sequence Length   | 256 tokens                  |
 | Optimizer             | AdamW                       |
 | Precision             | FP16 (Mixed Precision)      |
@@ -99,9 +103,10 @@ print("💬 Response:", generate_response(question))
 
 ## 🔄 Reproducibility
 
-* LoRA adapters saved separately (~300K params)
+* Domain-adapted GPT-2 trained for **5 epochs**
+* LoRA adapters trained for **3 epochs** (~300K params)
 * Fixed random seed for deterministic results
-* Full config files saved for replication
+* Full config files saved for exact replication
 
 ---
 
@@ -109,7 +114,7 @@ print("💬 Response:", generate_response(question))
 
 * Medical Q&A assistant
 * Educational healthcare tool
-* Instruction-following AI for clinical info
+* Instruction-following AI for clinical information
 * Lightweight Colab-friendly model for prototyping
 
 ---
@@ -120,5 +125,3 @@ print("💬 Response:", generate_response(question))
 * Fast training and inference
 * Easy deployment & modular adapter switching
 * Colab GPU compatible
-
-Do you want me to do that?
