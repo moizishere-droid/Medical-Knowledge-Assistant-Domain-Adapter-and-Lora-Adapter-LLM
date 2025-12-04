@@ -1,4 +1,4 @@
-# 🏥 Medical Knowledge Assistant (Colab Version)
+# 🏥 Medical Knowledge Assistant
 
 A **LoRA fine-tuned GPT-2 model** for medical Q&A. This project demonstrates **domain adaptation** and **instruction tuning** for generating accurate medical responses, optimized for **Google Colab free GPU**.
 
